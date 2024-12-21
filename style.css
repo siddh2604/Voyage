@@ -1,0 +1,137 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #2A2A2A;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('assets/background.jpg') no-repeat center center/cover;
+    padding: 17rem 0;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .hero .btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #D1B29D;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background-color: #B59A74;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Cards */
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    border-bottom: 1px solid #ddd;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card .price {
+    font-size: 1.3rem;
+    color: #D1B29D;
+    font-weight: bold;
+  }
+  
+  .row.row-cols-1.row-cols-md-2.row-cols-lg-4.g-4 .col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Contact Section */
+  form button {
+    background-color: #D1B29D;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #B59A74;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1A2B48;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer .socials a {
+    color: #D1B29D;
+    margin: 0 5px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+  }
+  
+  footer .socials a:hover {
+    color: #FFCC00;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
